@@ -1,7 +1,7 @@
-const form = document.getElementById("todoForm");
-const nameInput = document.getElementById("todoName");
-const priceInput = document.getElementById("todoPrice");
-const list = document.getElementById("todoList");
+const form = document.getElementById("productForm");
+const nameInput = document.getElementById("productName");
+const priceInput = document.getElementById("productPrice");
+const list = document.getElementById("productList");
 
 form.addEventListener("submit", (event) => {
     event.preventDefault();
